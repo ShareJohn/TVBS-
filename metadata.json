@@ -1,0 +1,7 @@
+{
+  "name": "TVBS電訪框產生器",
+  "description": "這是一個專業的電視新聞電話訪問圖卡生成工具，方便新聞從業人員自行快速製作高品質電訪框。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
