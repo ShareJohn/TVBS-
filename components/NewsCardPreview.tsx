@@ -141,6 +141,8 @@ export const NewsCardPreview: React.FC<Props> = ({ data, onUpdate }) => {
     }
 
     // 2. 檢查記者文字
+    // Locked: Reporter position is fixed (requested by user)
+    /*
     const fullReporterText = (data.reporterTitle + data.reporterName).trim();
     if (fullReporterText && isPointInText(pt.x, pt.y, ctx, fullReporterText, data.reporterTextLayout)) {
       setDragTarget('reporterText');
@@ -149,6 +151,7 @@ export const NewsCardPreview: React.FC<Props> = ({ data, onUpdate }) => {
       setDragStart(pt);
       return;
     }
+    */
 
     // 3. 檢查受訪者圖框
     if (!data.isTransparentMode && isPointInRect(pt.x, pt.y, data.intervieweeFrame)) {
